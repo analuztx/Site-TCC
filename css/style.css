@@ -1,9 +1,9 @@
 .menu {
   top: 0%;
   left: 0px;
-  height: 150px;
+  height: 250px;
   width: 100%;
-  background-color: #68D1FF;
+  background-color: #006f8b;
   position: absolute;
 
 }
@@ -11,16 +11,17 @@
 .logo{ 
   width: 200px;
   height: 50px;
-  margin-left: 43%;
-  margin-top: 2px;
+  margin-left: 0px;
+  position: relative;
+  bottom: 47px;
 }
 
 .menu-bar {
-  top: 150px;
+  top: 250px;
   left: 0%;
   height: 80px;
   width: 100%;
-  background-color: #00779b;
+  background-color: #008690;
   position: absolute;
 
 }
@@ -42,11 +43,12 @@ li
 li a 
 
 {
- display: block;
+  display: flex;
  color: white;
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
+ position: relative;
 }
 
 li a:hover
@@ -57,14 +59,11 @@ li a:hover
 }
 
 h2{
-  font-family:'Poppins-LightItalic';
+  font-family:'Poppins-Thin';
   font-size: 18px;
   bottom: 20px;
 }
 
-.options{
-
-}
 
 @font-face {
   font-family: 'Poppins-Regular' ;
@@ -74,4 +73,34 @@ h2{
 @font-face {
   font-family:'Poppins-LightItalic' ;
   src: url(../pop/Poppins-LightItalic.ttf);
+}
+
+@font-face {
+  font-family:'Poppins-Black' ;
+  src: url(../pop/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family:'Poppins-BlackItalic' ;
+  src: url(../pop/Poppins-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family:'Poppins-Bold' ;
+  src: url(../pop/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family:'Poppins-Italic' ;
+  src: url(../pop/Poppins-Italic.ttf);
+}
+
+@font-face {
+  font-family:'Poppins-Medium';
+  src: url(../pop/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family:'Poppins-Thin' ;
+  src: url(../pop/Poppins-Thin.ttf);
 }
